@@ -24,13 +24,13 @@ import FeaturesCommunityIcon from 'src/assets/images/landing/features/Community.
 import FeaturesAPIIcon from 'src/assets/images/landing/features/API.svg';
 
 import TelegramIcon from 'src/assets/images/landing/social/Telegram.svg';
-//import LinkedInIcon from 'src/assets/images/landing/social/LinkedIn.svg';
+import LinkedInIcon from 'src/assets/images/landing/social/LinkedIn.svg';
 import TwitterIcon from 'src/assets/images/landing/social/Twitter.svg';
-//import YouTubeIcon from 'src/assets/images/landing/social/YouTube.svg';
+import YouTubeIcon from 'src/assets/images/landing/social/YouTube.svg';
 import RedditIcon from 'src/assets/images/landing/social/Reddit.svg';
-//import FacebookIcon from 'src/assets/images/landing/social/Facebook.svg';
+import FacebookIcon from 'src/assets/images/landing/social/Facebook.svg';
 import MediumIcon from 'src/assets/images/landing/social/Medium.svg';
-//import CoinMarketIcon from 'src/assets/images/landing/social/CoinMarket.svg';
+import CoinMarketIcon from 'src/assets/images/landing/social/CoinMarket.svg';
 
 interface ReduxProps {
     isLoggedIn: boolean;
@@ -240,15 +240,15 @@ class Landing extends React.Component<Props> {
                         <div className="pg-landing-screen__footer__wrap__social">
                             <div className="pg-landing-screen__footer__wrap__social__row">
                                 <img src={TelegramIcon} alt="Telegram" />
-                                //<img src={LinkedInIcon} alt="LinkedIn" />
+                                <img src={LinkedInIcon} alt="LinkedIn" />
                                 <img src={TwitterIcon} alt="Twitter" />
-                                //<img src={YouTubeIcon} alt="YouTube" />
+                                <img src={YouTubeIcon} alt="YouTube" />
                             </div>
                             <div className="pg-landing-screen__footer__wrap__social__row">
                                 <img src={RedditIcon} alt="Reddit" />
-                                //<img src={FacebookIcon} alt="Facebook" />
+                                <img src={FacebookIcon} alt="Facebook" />
                                 <img src={MediumIcon} alt="MediumIcon" />
-                                //<img src={CoinMarketIcon} alt="CoinMarket" />
+                                <img src={CoinMarketIcon} alt="CoinMarket" />
                             </div>
                         </div>
                     </div>
