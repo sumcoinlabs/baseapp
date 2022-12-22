@@ -15,10 +15,10 @@ yarn install && yarn start-mock
 
 ###### server will start on localhost:3000
 ### 3. Change text description
-let's change title: ```Welcome to Baseapp.
-Buy, sell and trade digital currency.```
-1. copy ```Welcome to Baseapp``` and search for it in the en.ts and ru.ts. You will find on the line#104 id and text: page.body.landing.marketInfo.title.text1.
-2. change text from ```Welcome to Baseapp``` to ```Welcome to our App```. After you save this file you will see changes on the UI.
+let's change title: ```Welcome to ZDAX.
+Buy, Sell and Trade Digital Currencies.```
+1. copy ```Welcome to ZDAX``` and search for it in the en.ts and ru.ts. You will find on the line#104 id and text: page.body.landing.marketInfo.title.text1.
+2. change text from ```Welcome to ZDAX``` to ```Welcome to our App```. After you save this file you will see changes on the UI.
 
 ###### you can do same steps for second part ```Buy, sell and trade digital currency.```
 ```Buy, sell and trade digital currency.``` -> ```Buy, sell and trade```
@@ -27,11 +27,11 @@ Buy, sell and trade digital currency.```
 let's change section ```Baseapp platform features```
 1. open file: web\src\screens\LandingScreen\index.tsx
 2. remove code from line#129 to line#189
-You should have 
+You should have
 ```javascript
     <LandingBlock className="pg-landing-screen__features"></LandingBlock>
 ```
-3. inside section let's put some custom: 
+3. inside section let's put some custom:
 ```javascript
     <LandingBlock className="pg-landing-screen__features">
         <div>
@@ -56,15 +56,15 @@ let's change styles for the part which we added to our landing page
 
       div {
         max-width: 600px;
-  
+
         h2 {
           margin-bottom: 42px;
         }
-    
+
         h3 {
           margin-bottom: 36px;
         }
-    
+
         p {
           font-size: 12px;
         }
