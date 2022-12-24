@@ -35,9 +35,9 @@ describe('Documentation trade user api', () => {
                 title: 'Peatio User API v2',
                 description: 'API for Peatio application.',
                 contact: {
-                    name: 'openware.com',
-                    email: 'hello@openware.com',
-                    url: 'https://www.openware.com',
+                  name: 'zdax.exchange',
+                  email: 'hello@zdax.exchange',
+                  url: 'http://www.zdax.exchange',
                 },
                 license: {
                     url: 'https://github.com/openware/peatio/blob/master/LICENSE.md',
