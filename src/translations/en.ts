@@ -97,7 +97,7 @@ export const en = {
     'page.body.landing.header.button3': 'register',
 
     'page.body.landing.marketInfo.title.text1': 'Welcome to ZDAX.',
-    'page.body.landing.marketInfo.title.text2': 'Buy, sell and trade digital currencies.',
+    'page.body.landing.marketInfo.title.text2': 'Buy, Sell and Trade Digital Currencies.',
     'page.body.landing.marketInfo.title.button': 'start trading',
 
     'page.body.landing.platformInfo.item.first.value': '30M+',
